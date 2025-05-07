@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Pets</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+  <div class="container">
+    <!-- Header -->
+    <header class="row marginBottom">
+      <div class="col-md-12">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary customNavBG">
+          <div class="container-fluid">
+            <a class="navbar-brand logo" href="index.html">Jacob Zhu 朱奕舟</a>
+            <span class="cv-links" style="font-size: 1rem; font-weight: 400;">
+              <a href="resume/Jacob_Zhu.pdf" target="_blank" class="cv-link">CV</a> /
+              <a href="resume/Yizhou_Zhu.pdf" target="_blank" class="cv-link">个人简历</a>
+            </span>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Explore More!
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="mom.html">My Mom & Her Family</a></li>
+                    <li><a class="dropdown-item" href="dad.html">My Dad & His Family</a></li>
+                    <li><a class="dropdown-item" href="pet.html">My Pets</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Carousel -->
+    <div class="row marginBottom">
+      <div class="col-md-12 noPadding">
+        <div id="carouselPet" class="carousel slide">
+          <!-- Indicators -->
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselPet" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselPet" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselPet" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselPet" data-bs-slide-to="3" aria-label="Slide 4"></button>
+          </div>
+
+          <!-- Slides -->
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="images/pet/chunliang.HEIC" class="d-block w-100" alt="Pet 1">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Chun Liang</h5>
+                <p>纯良</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="images/pet/gangben.HEIC" class="d-block w-100" alt="Pet 2">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Gang Beng</h5>
+                <p>钢镚</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="images/pet/tiezhu.JPG" class="d-block w-100" alt="Pet 3">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Tie Zhu</h5>
+                <p>铁柱</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="images/pet/zhaocai.jpg" class="d-block w-100" alt="Pet 4">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Zhao Cai</h5>
+                <p>招财</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Controls -->
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselPet" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselPet" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div class="row mt-5">
+        <div class="col-md-12">
+          <h3 class="mb-3">More About My Pets 更多关于我家的小动物</h3>
+      
+          <!-- 英文 -->
+          <p>
+            I have two beloved rabbits and two cats, each with their own story. My rabbit Chunliang was gentle, curious, and deeply loved by our whole family. Sadly, she passed away from cancer on April 20, 2025. Her presence brought warmth and laughter into our home, and her memory remains with us every day.
+          </p>
+          <p>
+            Gangbeng, our other rabbit, is now almost 8 years old. He’s calm, resilient, and has been with us through many seasons of life. In addition, we also have two rescue cats—Tiezhu and Zhaocai. Both were once strays, but thanks to my mom’s compassion, they found a safe home with us. Each pet has a name, a story, and a place in our hearts.
+          </p>
+      
+          <!-- 中文 -->
+          <hr>
+          <p>
+            我家有两只兔子和两只猫，每一只都有属于自己的故事。兔子“纯良”性格温和、好奇，是我们全家的开心果。不幸的是，她因癌症于2025年4月20日离世，但她带来的欢乐与陪伴永远留在我们的记忆中。
+          </p>
+          <p>
+            另一只兔子叫“钢镚”，如今已经快8岁了。他一直很坚强，也见证了我们家的许多时光。此外，我们还有两只猫，是妈妈在外收养的流浪猫，一只是“铁柱”，一只是“招财”。从流浪到拥有归属，它们如今是我们家庭中不可或缺的一部分。每一个名字背后都有一个故事，也藏着我们对它们的爱。
+          </p>
+        </div>
+      </div>
+      
+ 
+
+    <!-- Footer -->
+    <footer class="mt-5 pt-4 border-top text-muted">
+      <div class="container d-flex justify-content-between align-items-center flex-wrap">
+        <small>Last Updated: 05/2025; Built by Jacob</small>
+        <div class="d-flex gap-3">
+          <a href="https://www.instagram.com/jacobz_0120/" target="_blank" class="text-decoration-none text-primary fs-5">
+            <i class="bi bi-instagram"></i>
+          </a>
+          <a href="https://twitter.com/YizhouZhuJacob" target="_blank" class="text-decoration-none text-primary fs-5">
+            <i class="bi bi-twitter-x"></i>
+          </a>
+          <a href="https://www.linkedin.com" target="_blank" class="text-decoration-none text-primary fs-5">
+            <i class="bi bi-linkedin"></i>
+          </a>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
